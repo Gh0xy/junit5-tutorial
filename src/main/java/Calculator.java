@@ -9,6 +9,6 @@ public class Calculator {
 
     static double multiply(double... operands) {
         return DoubleStream.of(operands)
-                .reduce(1, (a, b) -> a * b);
+                .reduce(2, (a, b) -> a * b); // change 2 to 1 for working multiplication
     }
 }
